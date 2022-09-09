@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\bin\Debug\net6.0\HomeworkManagerCourse.exe
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\bin\Debug\net6.0\HomeworkManagerCourse.deps.json
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\bin\Debug\net6.0\HomeworkManagerCourse.runtimeconfig.json
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\bin\Debug\net6.0\HomeworkManagerCourse.dll
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\bin\Debug\net6.0\HomeworkManagerCourse.pdb
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.dll
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\refint\HomeworkManagerCourse.dll
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.pdb
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\HomeworkManagerCourse.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\HomeworkManagerCourse\HomeworkManagerCourse\obj\Debug\net6.0\ref\HomeworkManagerCourse.dll
