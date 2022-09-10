@@ -20,9 +20,17 @@ namespace HomeworkManagerCourse.printer
         public Member findMember(School school, string firstName, string lastName)
         {
             List<Member> myMembers = school.Member;
-            foreach(Member member in myMembers)
+            List<Member> myStudents = school.Student;
+            foreach (Member member in myMembers)
             {
                 if(member.Name.Equals(firstName) && member.LastName.Equals(lastName))
+                {
+                    return member;
+                }
+            }
+            foreach (Member member in myStudents)
+            {
+                if (member.Name.Equals(firstName) && member.LastName.Equals(lastName))
                 {
                     return member;
                 }
@@ -44,7 +52,10 @@ namespace HomeworkManagerCourse.printer
             
             if (requestedMember.Name.Equals("noMember"))
             {
-                Console.WriteLine("No such member in database");
+                Console.WriteLine("No such member in database.");
+
+                Console.WriteLine("------------");
+
                 IOption optionPrintMenu1 = new OptionPrintMenu(0);
 
                 Printer printer1 = new Printer();

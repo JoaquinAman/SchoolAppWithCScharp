@@ -20,7 +20,11 @@ namespace HomeworkManagerCourse.printer
 
         public int Execute(School school)
         {
-            
+            Console.WriteLine("Course name: ");
+            string courseName = Console.ReadLine();
+
+            Console.WriteLine("------------------");
+
             Console.WriteLine("Trainer: ");
             Console.WriteLine("Name: ");
             string trainerName = Console.ReadLine();
@@ -28,8 +32,8 @@ namespace HomeworkManagerCourse.printer
             string trainerLastName = Console.ReadLine();
             Console.WriteLine("Email: ");
             string trainerEmail = Console.ReadLine();
-            Console.WriteLine("Rol: ");
-            string trainerRol = Console.ReadLine();
+            Console.WriteLine("Rol: trainer");
+            string trainerRol = "trainer";
             Member trainerMember = new(trainerName, trainerLastName, trainerEmail, trainerRol);
 
             Console.WriteLine("------------------");
@@ -41,14 +45,15 @@ namespace HomeworkManagerCourse.printer
             string managerLastName = Console.ReadLine();
             Console.WriteLine("Email: ");
             string managerEmail = Console.ReadLine();
-            Console.WriteLine("Rol: ");
-            string managerRol = Console.ReadLine();
+            Console.WriteLine("Rol: manager");
+            string managerRol = "manager";
             Member managerMember = new(managerName, managerLastName, managerEmail, managerRol);
 
-            Course course = new("courseName", trainerMember, managerMember);
+            Course course = new(courseName, trainerMember, managerMember);
 
             school.Course.Add(course);
-
+            school.Member.Add(trainerMember);
+            school.Member.Add(managerMember);
 
             IOption optionPrintMenu = new OptionPrintMenu(0);
             

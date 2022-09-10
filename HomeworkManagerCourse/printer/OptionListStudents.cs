@@ -19,17 +19,29 @@ namespace HomeworkManagerCourse.printer
 
         public int Execute(School school)
         {
+            try
+            {
+                Console.WriteLine("Students list in course: " + school.Course[0].Name);
+                
+                Console.WriteLine("------------");
 
-            Console.WriteLine("Students list in course: " + school.Course[0].Name);
-                       
+                foreach (Member member in school.Course[0].ListOfStudents)
+                {
+                    Console.WriteLine(member.Name + " " + member.LastName);
+                }
+
+                if (school.Course[0].ListOfStudents.Count == 0)
+                {
+                    Console.WriteLine("This course has no student registered.");
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("There are yet no courses created.");
+            }
+        
             Console.WriteLine("------------");
             
-            foreach(Member member in school.Course[0].ListOfStudents)
-            {
-                Console.WriteLine(member.Name + " " + member.LastName);
-            }
-            Console.WriteLine("------------");
-
 
             IOption optionPrintMenu = new OptionPrintMenu(0);
 

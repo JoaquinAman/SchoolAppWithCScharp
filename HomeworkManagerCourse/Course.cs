@@ -22,8 +22,24 @@ namespace HomeworkManagerCourse
         public Course(string courseName, Member trainer, Member manager)
         {
             _courseName = courseName;
-            _trainer = trainer;
-            _manager = manager;
+            
+            if (trainer.Role.Equals("trainer"))
+            {
+                _trainer = trainer;
+            }
+            else
+            {
+                throw new Exception("Trainer should have trainer role.");
+            }
+            if (manager.Role.Equals("manager"))
+            {
+                _manager = manager;
+            }
+            else
+            {
+                throw new Exception("Manager should have manager role.");
+            }
+            
         }
         public void PrintListOfStudents(string courseName)
         {

@@ -23,6 +23,7 @@ namespace HomeworkManagerCourse
         {
             get { return _lastName; }
         }
+        public string Role { get { return _rol; } }
         public Member(string name, string lastName, string email, string rol)
         {
             _name = name;

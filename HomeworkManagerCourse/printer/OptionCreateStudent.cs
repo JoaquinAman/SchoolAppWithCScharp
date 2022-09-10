@@ -31,10 +31,19 @@ namespace HomeworkManagerCourse.printer
             string studentRol = Console.ReadLine();
             Member studentMember = new(studentName, studentLastName, studentEmail, studentRol);
 
-            school.Course[0].ListOfStudents.Add(studentMember);
-            school.Member.Add(studentMember);
-            school.Student.Add(studentMember);
+            
+            try
+            {
+                school.Course[0].ListOfStudents.Add(studentMember);
+                school.Student.Add(studentMember);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("There are yet no courses created.");
 
+                Console.WriteLine("------------");
+            }
+            
 
             IOption optionPrintMenu = new OptionPrintMenu(0);
 
